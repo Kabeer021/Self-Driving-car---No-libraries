@@ -1,2 +1,2 @@
- Learned and implemented core driving mechanics: acceleration, steering, friction, and collision handling. Implemented virtual sensors (based on rays) to detect distances from road boundaries and obstacles in real time.
+Learned and implemented core driving mechanics: acceleration, steering, friction, and collision handling. Implemented virtual sensors (based on rays) to detect distances from road boundaries and obstacles in real time.
 Built a feedforward neural network from scratch to process sensor data and control the steering and acceleration of the car.
