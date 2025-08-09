@@ -29,14 +29,15 @@ if(localStorage.getItem("bestBrain")){
 
 const traffic = [
     new Car(road.getLaneCenter(0) ,-100,30,50,"DUMMY",2),
-    new Car(road.getLaneCenter(2) ,-500,30,50,"DUMMY",2),
-    // new Car(road.getLaneCenter(2) ,-100,30,50,"DUMMY",2),
-    // new Car(road.getLaneCenter(0) ,-1000,30,50,"DUMMY",2),
-    // new Car(road.getLaneCenter(0) ,-600,30,50,"DUMMY",2),
-    // new Car(road.getLaneCenter(2) ,-700,30,50,"DUMMY",2),
-    // new Car(road.getLaneCenter(0) ,-800,30,50,"DUMMY",2),
-    // new Car(road.getLaneCenter(1) ,-200,30,50,"DUMMY",2),
-    // new Car(road.getLaneCenter(1) ,-900,30,50,"DUMMY",2),
+    new Car(road.getLaneCenter(1) ,-500,30,50,"DUMMY",2),
+    new Car(road.getLaneCenter(0) ,-300,30,50,"DUMMY",2),
+    new Car(road.getLaneCenter(2) ,-100,30,50,"DUMMY",2),
+    new Car(road.getLaneCenter(0) ,-1000,30,50,"DUMMY",2),
+    new Car(road.getLaneCenter(0) ,-600,30,50,"DUMMY",2),
+    new Car(road.getLaneCenter(2) ,-700,30,50,"DUMMY",2),
+    new Car(road.getLaneCenter(0) ,-800,30,50,"DUMMY",2),
+    new Car(road.getLaneCenter(1) ,-200,30,50,"DUMMY",2),
+    new Car(road.getLaneCenter(1) ,-900,30,50,"DUMMY",2),
 
 ];
 
@@ -109,6 +110,7 @@ function animate(time)
     Visualizer.drawNetwork(networkCtx , bestCar.brain);
     requestAnimationFrame(animate);
 }
+
 
 
 
